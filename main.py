@@ -28,5 +28,6 @@ def main():
     bot.add_cog(DiscordBot(bot))
     bot.run(TOKEN)
 
+
 if __name__ == '__main__':
     main()
