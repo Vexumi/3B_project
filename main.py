@@ -30,9 +30,9 @@ async def on_member_join(member):
     await member.create_dm()
     await member.dm_channel.send(
         'Я смотрю ты вообще не понимаешь в каком месте ты оказался?\n'
-        'Это блять сервер смерти\n'
+        'Это сервер смерти\n'
         'Где тебе могут всадить пулю за считанные секунды\n'
-        'И ты будешь сидеть на небесах и рыдать как сучка покамись твой труп лутает родион.\n'
+        'И ты будешь сидеть на небесах и рыдать покамись твой труп лутает родион.\n'
         'Если ты хочешь знать как прожить хотя бы пять минут на сервере смерти - прослушай аудио')
     await member.dm_channel.send(file=discord.File("source\\sounds\\welcome.mp3"))
 
@@ -43,9 +43,9 @@ async def welcome(ctx, member: discord.Member):
     await member.create_dm()
     await member.dm_channel.send(
         'Я смотрю ты вообще не понимаешь в каком месте ты оказался?\n'
-        'Это блять сервер смерти\n'
+        'Это сервер смерти\n'
         'Где тебе могут всадить пулю за считанные секунды\n'
-        'И ты будешь сидеть на небесах и рыдать как сучка покамись твой труп лутает родион.\n'
+        'И ты будешь сидеть на небесах и рыдать покамись твой труп лутает родион.\n'
         'Если ты хочешь знать как прожить хотя бы пять минут на сервере смерти - прослушай аудио')
     await member.dm_channel.send(file=discord.File("source\\sounds\\welcome.mp3"))
 
@@ -123,7 +123,7 @@ async def start_spam(ctx, victim_id, time, name_time):
 @bot.event
 async def on_reminder(channel_id, victim_id, author_id, date_next):
     channel = bot.get_channel(channel_id)
-    await channel.send(f'Wake the fuck up {victim_id}, we have a city to burn.')
+    await channel.send(f'Wake up {victim_id}, we have a city to burn.')
     bot.timer_manager.create_timer('reminder', date_next,
                                    args=(channel_id, victim_id, author_id, date_next))
 
