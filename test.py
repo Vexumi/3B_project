@@ -1,22 +1,21 @@
-import discord
-# async def on_ready(self):
-#     print(f'{self.user} has connected to Discord!')
-#     for guild in self.guilds:
-#         print(f'{guild.name}(id: {guild.id})')
-#
-#
-# async def on_member_join(self, member):
-#     print("New Member!")
-#     await member.create_dm()
-#     await member.dm_channel.send(file=discord.File("/source/sounds/welcome.mp3"))
-# ----------------------------------------------------------------------
-# voice_client = get(ctx.bot.voice_clients, guild=ctx.guild)
-# channel = discord.utils.get(ctx.bot.get_all_channels(), guild__name='Cool', name='general')
-# print(voice_client.disconnect())
+async def on_ready(self):
+    print(f'{self.user} has connected to Discord!')
+    for guild in self.guilds:
+        print(f'{guild.name}(id: {guild.id})')
 
-# await ctx.guild.ban(user, reason="Testing", delete_message_days=0)
 
-# ----------------------------------------------------------------------
+async def on_member_join(self, member):
+    print("New Member!")
+    await member.create_dm()
+    await member.dm_channel.send(file=discord.File("/source/sounds/welcome.mp3"))
+----------------------------------------------------------------------
+    # voice_client = get(ctx.bot.voice_clients, guild=ctx.guild)
+    # channel = discord.utils.get(ctx.bot.get_all_channels(), guild__name='Cool', name='general')
+    # print(voice_client.disconnect())
+
+    # await ctx.guild.ban(user, reason="Testing", delete_message_days=0)
+
+----------------------------------------------------------------------
 # # disconnect user
 #     victim_member = discord.utils.get(ctx.guild.members, name=victim.name)
 #     kick_channel = await ctx.guild.create_voice_channel("kick")
@@ -26,7 +25,7 @@ import discord
 #         pass
 #     await kick_channel.delete()
 
-# ----------------------------------------------------------------------
+----------------------------------------------------------------------
 # @bot.command()
 # async def kill(ctx, victim: discord.Member):
 #     # connect bot to user
@@ -51,41 +50,12 @@ import discord
 #
 #     # disconnect bot
 #     await vc.disconnect()
-# import logging
-#
-# logging.basicConfig(filename='logs.log', format='%(asctime)s %(levelname)s %(name)s %(message)s')
-#
-#
-#
-# def log_to_file():
-#     i = 0
-#     while i < 10:
-#         logging.warning(i)
-#         i += 1
-#
-#
-# if __name__ == '__main__':
-#     log_to_file()
-#
-# import requests
-#
-# url = "https://webknox-jokes.p.rapidapi.com/jokes/search"
-#
-# querystring = {"numJokes": "5", "keywords": "kick, hard", "category": "Chuck Norris",
-#                "minRating": "5"}
-#
-# headers = {
-#     'x-rapidapi-key': "SIGN-UP-FOR-KEY",
-#     'x-rapidapi-host': "webknox-jokes.p.rapidapi.com"
-# }
-#
-# response = requests.request("GET", url, headers=headers, params=querystring)
-#
-# print(response.text)
-
-# @bot.command(description='Test Func')
-# async def t_f(ctx):
-#     await ctx.message.delete()
-#     embed = discord.Embed(title="Test", description=f"Big Test!tqwrg",
-#                           colour=discord.Colour.dark_green())
-#     await ctx.send(embed=embed)
+---------------------------------------------------------------------------
+dialogs = {'welcome': 'Я смотрю ты вообще не понимаешь в каком месте ты оказался?\n'
+                      'Это блять сервер смерти\n'
+                      'Где тебе могут всадить пулю за считанные секунды\n'
+                      'И ты будешь сидеть на небесах и рыдать как сучка покамись твой труп лутает родион.\n'
+                      'Если ты хочешь знать как прожить хотя бы пять минут на сервере смерти - прослушай аудио',
+           'wake up': 'Wake the fuck up {}, we have a city to burn. ⚠️',
+           'error_connect': 'Bruh, you are not connected to voice chat!',
+           'error_command_mistake': 'I think you made a mistake. \nCheck #help <command> to get more information.❌'}
