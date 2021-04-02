@@ -21,7 +21,7 @@ dialogs = {'welcome': 'Я смотрю ты вообще не понимаешь
            'error_connect': 'Bruh, you are not connected to voice chat!',
            'error_command_mistake': 'I think you made a mistake. \nCheck #help <command> to get more information.❌'}
 
-TOKEN = 'ODI0OTM0MTI3MDg5NzQ1OTgw.YF2lxg.IBVoC8JQvjJYH4WR_FHjio1rB2w'
+TOKEN = 'ODI0OTM0MTI3MDg5NzQ1OTgw.YF2lxg.O3YbqQ8_wT4JDzhsnjLUYP5iptA'
 
 bot = commands.Bot(command_prefix='#', description='Bot Of Our Discord Server')
 bot.timer_manager = timers.TimerManager(bot)
