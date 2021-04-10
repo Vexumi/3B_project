@@ -716,3 +716,241 @@
 2021-04-09 19:10:03,169 | INFO | discord | Starting spam to id:<@!780798543622569984>, from: <@532157271531061255>
 2021-04-09 19:10:08,217 | INFO | discord | Spam to id: <@!780798543622569984>
 2021-04-09 19:10:09,552 | INFO | discord | Spammer stopped by: <@532157271531061255>
+-----------------------------------New Session-----------------------------------
+2021-04-09 19:23:34,483 | INFO | discord.client | logging in using static token
+2021-04-09 19:23:35,373 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-09 19:23:35,608 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-hswj",{"micros":38556,"calls":["discord-sessions-prd-2-81",{"micros":36240,"calls":["start_session",{"micros":27994,"calls":["api-prd-main-srqk",{"micros":23931,"calls":["get_user",{"micros":1872},"add_authorized_ip",{"micros":1379},"get_guilds",{"micros":3441},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: c742163306d762542d89fea05611fd2f).
+2021-04-09 19:23:37,608 | INFO | discord | Bot ready to use!
+2021-04-09 20:11:10,464 | INFO | discord.client | Got a request to RESUME the websocket.
+2021-04-09 20:11:11,065 | INFO | discord.gateway | Shard ID None has sent the RESUME payload.
+2021-04-09 20:11:11,263 | INFO | discord.gateway | Shard ID None has successfully RESUMED session c742163306d762542d89fea05611fd2f under trace ["gateway-prd-main-dmv9",{"micros":1388,"calls":["discord-sessions-prd-2-81",{"micros":13}]}].
+-----------------------------------New Session-----------------------------------
+2021-04-09 20:54:44,177 | INFO | discord.client | logging in using static token
+2021-04-09 20:54:45,171 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-09 20:54:45,486 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-g5d9",{"micros":111607,"calls":["discord-sessions-prd-2-139",{"micros":102363,"calls":["start_session",{"micros":87195,"calls":["api-prd-main-9r4x",{"micros":83807,"calls":["get_user",{"micros":3482},"add_authorized_ip",{"micros":9006},"get_guilds",{"micros":39795},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8734,"calls":[]}]}]}] (Session ID: 722cab77dec5a5cb21606fb77bbec52a).
+2021-04-09 20:54:47,510 | INFO | discord | Bot ready to use!
+2021-04-09 22:08:22,002 | ERROR | discord | Access is denied from: <@430677550600028161>
+2021-04-09 22:08:28,255 | INFO | discord | Starting spam to id:<@!475597250819784704>, from: <@532157271531061255>
+2021-04-09 22:08:33,141 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:08:38,440 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:08:43,742 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:08:49,019 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:08:56,145 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:01,601 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:06,926 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:12,370 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:17,696 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:22,974 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:28,282 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:33,693 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:39,017 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:44,467 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:49,736 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:09:55,044 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:00,329 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:06,144 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:11,440 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:16,920 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:22,320 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:27,601 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:32,908 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:38,229 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:43,521 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:48,875 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:54,145 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:10:59,448 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:04,785 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:10,083 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:15,603 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:21,119 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:26,441 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:31,732 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:37,035 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:42,451 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:47,743 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:53,031 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:11:58,359 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:03,720 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:09,088 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:14,385 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:19,652 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:24,958 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:30,284 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:35,618 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:40,910 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:46,277 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:51,793 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:12:57,106 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:02,380 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:07,743 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:13,069 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:18,454 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:23,726 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:29,104 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:34,469 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:40,000 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:45,329 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:50,613 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:13:55,886 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:01,273 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:06,658 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:11,975 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:18,300 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:23,865 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:29,235 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:34,556 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:39,823 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:45,098 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:50,435 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:14:55,861 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:01,226 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:06,519 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:10,645 | WARNING | discord.http | We are being rate limited. Retrying in 1.40 seconds. Handled under the bucket "731080188045295678:None:/channels/{channel_id}/messages/{message_id}"
+2021-04-09 22:15:11,863 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:13,985 | WARNING | discord.http | We are being rate limited. Retrying in 3.28 seconds. Handled under the bucket "731080188045295678:None:/channels/{channel_id}/messages/{message_id}"
+2021-04-09 22:15:17,160 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:19,994 | WARNING | discord.http | We are being rate limited. Retrying in 2.48 seconds. Handled under the bucket "731080188045295678:None:/channels/{channel_id}/messages/{message_id}"
+2021-04-09 22:15:22,484 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:24,669 | WARNING | discord.http | We are being rate limited. Retrying in 3.22 seconds. Handled under the bucket "731080188045295678:None:/channels/{channel_id}/messages/{message_id}"
+2021-04-09 22:15:27,850 | INFO | discord | Spam to id: <@!475597250819784704>
+2021-04-09 22:15:29,904 | WARNING | discord.http | We are being rate limited. Retrying in 3.21 seconds. Handled under the bucket "731080188045295678:None:/channels/{channel_id}/messages/{message_id}"
+-----------------------------------New Session-----------------------------------
+2021-04-09 22:48:44,080 | INFO | discord.client | logging in using static token
+2021-04-09 22:48:45,249 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-09 22:48:45,523 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-t7cp",{"micros":73224,"calls":["discord-sessions-prd-2-120",{"micros":72269,"calls":["start_session",{"micros":24043,"calls":["api-prd-main-5mm3",{"micros":21570,"calls":["get_user",{"micros":2128},"add_authorized_ip",{"micros":2020},"get_guilds",{"micros":3781},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4180,"calls":[]}]}]}] (Session ID: 2fe63c953177f0d5c727219627e90d72).
+2021-04-09 22:48:47,530 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 13:59:41,279 | INFO | discord.client | logging in using static token
+2021-04-10 13:59:42,759 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 13:59:43,010 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-g4xx",{"micros":48972,"calls":["discord-sessions-prd-2-146",{"micros":45195,"calls":["start_session",{"micros":28761,"calls":["api-prd-main-qqgv",{"micros":25653,"calls":["get_user",{"micros":2652},"add_authorized_ip",{"micros":1474},"get_guilds",{"micros":5014},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10896,"calls":[]}]}]}] (Session ID: df2f707ba1a3ed0604ea70821ddf4026).
+2021-04-10 13:59:45,023 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 14:41:31,116 | INFO | discord.client | logging in using static token
+2021-04-10 14:41:32,098 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 14:41:32,406 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-r1k1",{"micros":100550,"calls":["discord-sessions-prd-2-44",{"micros":98163,"calls":["start_session",{"micros":46777,"calls":["api-prd-main-zv5f",{"micros":42858,"calls":["get_user",{"micros":3457},"add_authorized_ip",{"micros":2908},"get_guilds",{"micros":6448},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ae7d2163356bd563162b98fb33e4f755).
+2021-04-10 14:41:34,424 | INFO | discord | Bot ready to use!
+2021-04-10 15:16:34,259 | INFO | discord | Starting spam to id:<@!780798543622569984>, from: <@532157271531061255>
+2021-04-10 15:16:39,283 | INFO | discord | Spam to id: <@!780798543622569984>
+2021-04-10 15:16:44,597 | INFO | discord | Spam to id: <@!780798543622569984>
+2021-04-10 15:16:49,959 | INFO | discord | Spam to id: <@!780798543622569984>
+2021-04-10 15:16:51,902 | INFO | discord | Spammer stopped by: <@532157271531061255>
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:22:21,776 | INFO | discord.client | logging in using static token
+2021-04-10 15:22:22,755 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:22:23,039 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-29fm",{"micros":86644,"calls":["discord-sessions-prd-2-18",{"micros":81243,"calls":["start_session",{"micros":50243,"calls":["api-prd-main-l4x5",{"micros":45362,"calls":["get_user",{"micros":5207},"add_authorized_ip",{"micros":6153},"get_guilds",{"micros":4933},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11435,"calls":[]}]}]}] (Session ID: 92c05fd12c29c720e23842d9e54d9b31).
+2021-04-10 15:22:25,059 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:28:16,398 | INFO | discord.client | logging in using static token
+2021-04-10 15:28:17,387 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:28:17,629 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-6ft7",{"micros":43945,"calls":["discord-sessions-prd-2-133",{"micros":38943,"calls":["start_session",{"micros":27794,"calls":["api-prd-main-fxzz",{"micros":24707,"calls":["get_user",{"micros":2923},"add_authorized_ip",{"micros":1644},"get_guilds",{"micros":3738},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1877d7fa0350384b54a7cba0c1cba2ac).
+2021-04-10 15:28:19,650 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:28:40,151 | INFO | discord.client | logging in using static token
+2021-04-10 15:28:40,940 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:28:41,233 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-dbh6",{"micros":94214,"calls":["discord-sessions-prd-2-5",{"micros":92606,"calls":["start_session",{"micros":87271,"calls":["api-prd-main-sprh",{"micros":84575,"calls":["get_user",{"micros":8173},"add_authorized_ip",{"micros":4357},"get_guilds",{"micros":10767},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4941,"calls":[]}]}]}] (Session ID: d98812b423acdc7f15b801b2000b243f).
+2021-04-10 15:28:43,248 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:30:57,495 | INFO | discord.client | logging in using static token
+2021-04-10 15:30:58,310 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:30:58,558 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-bsm7",{"micros":49634,"calls":["discord-sessions-prd-2-3",{"micros":47930,"calls":["start_session",{"micros":27575,"calls":["api-prd-main-w1k0",{"micros":24871,"calls":["get_user",{"micros":3900},"add_authorized_ip",{"micros":1428},"get_guilds",{"micros":3575},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 82e75ca69b23d2a05c024d0c073a76ba).
+2021-04-10 15:31:00,563 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:36:48,719 | INFO | discord.client | logging in using static token
+2021-04-10 15:36:49,652 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:36:49,945 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-kdg6",{"micros":96023,"calls":["discord-sessions-prd-2-9",{"micros":91881,"calls":["start_session",{"micros":75022,"calls":["api-prd-main-mlpg",{"micros":60816,"calls":["get_user",{"micros":9011},"add_authorized_ip",{"micros":7000},"get_guilds",{"micros":7445},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7538,"calls":[]}]}]}] (Session ID: b1c848c4bb61927cde780d0e2ed0236c).
+2021-04-10 15:36:51,956 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:37:21,605 | INFO | discord.client | logging in using static token
+2021-04-10 15:37:22,431 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:37:22,708 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-mmh4",{"micros":78971,"calls":["discord-sessions-prd-2-99",{"micros":67865,"calls":["start_session",{"micros":33718,"calls":["api-prd-main-rcq8",{"micros":31058,"calls":["get_user",{"micros":6999},"add_authorized_ip",{"micros":1432},"get_guilds",{"micros":7172},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 035f588129ee64f2619a30b1cac0c6c1).
+2021-04-10 15:37:24,725 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:37:58,623 | INFO | discord.client | logging in using static token
+2021-04-10 15:37:59,410 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:37:59,646 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-619m",{"micros":36550,"calls":["discord-sessions-prd-2-90",{"micros":32180,"calls":["start_session",{"micros":30409,"calls":["api-prd-main-g549",{"micros":27663,"calls":["get_user",{"micros":2646},"add_authorized_ip",{"micros":1548},"get_guilds",{"micros":4204},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1271,"calls":[]}]}]}] (Session ID: cfa80b9df73fabca100b45a17c327c55).
+2021-04-10 15:38:01,655 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:38:17,941 | INFO | discord.client | logging in using static token
+2021-04-10 15:38:18,737 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:38:19,018 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-84mn",{"micros":83901,"calls":["discord-sessions-prd-2-119",{"micros":80400,"calls":["start_session",{"micros":34343,"calls":["api-prd-main-hqhl",{"micros":31832,"calls":["get_user",{"micros":3373},"add_authorized_ip",{"micros":1458},"get_guilds",{"micros":3010},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44452,"calls":[]}]}]}] (Session ID: 0c62ccba83831dc4537d1cf96c35786b).
+2021-04-10 15:38:21,045 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:38:42,463 | INFO | discord.client | logging in using static token
+2021-04-10 15:38:43,381 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:38:43,660 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-x9sf",{"micros":79486,"calls":["discord-sessions-prd-2-175",{"micros":75711,"calls":["start_session",{"micros":31317,"calls":["api-prd-main-ccwb",{"micros":28745,"calls":["get_user",{"micros":3951},"add_authorized_ip",{"micros":2679},"get_guilds",{"micros":4162},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19874,"calls":[]}]}]}] (Session ID: 33de1dbdd1497c68a901cc15c462874f).
+2021-04-10 15:38:45,678 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:39:18,995 | INFO | discord.client | logging in using static token
+2021-04-10 15:39:19,799 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:39:20,099 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-fw5s",{"micros":100567,"calls":["discord-sessions-prd-2-164",{"micros":94347,"calls":["start_session",{"micros":49618,"calls":["api-prd-main-v10k",{"micros":45000,"calls":["get_user",{"micros":4289},"add_authorized_ip",{"micros":4203},"get_guilds",{"micros":7137},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":40347,"calls":[]}]}]}] (Session ID: a288a387e09ba665c66ef34317c48d9d).
+2021-04-10 15:39:22,117 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:44:34,176 | INFO | discord.client | logging in using static token
+2021-04-10 15:44:35,116 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:44:35,385 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-chs2",{"micros":66298,"calls":["discord-sessions-prd-2-35",{"micros":63699,"calls":["start_session",{"micros":23786,"calls":["api-prd-main-sprh",{"micros":21328,"calls":["get_user",{"micros":2215},"add_authorized_ip",{"micros":1281},"get_guilds",{"micros":3157},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8127,"calls":[]}]}]}] (Session ID: 1f0800133b8a59d6fc02e51d365410b7).
+2021-04-10 15:44:37,396 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:44:56,771 | INFO | discord.client | logging in using static token
+2021-04-10 15:44:57,548 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:44:57,832 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-bkdx",{"micros":84575,"calls":["discord-sessions-prd-2-128",{"micros":82425,"calls":["start_session",{"micros":52809,"calls":["api-prd-main-pz65",{"micros":50312,"calls":["get_user",{"micros":6780},"add_authorized_ip",{"micros":3155},"get_guilds",{"micros":7789},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":29097,"calls":[]}]}]}] (Session ID: 814c5d84d4acf422c98e9898140289a0).
+2021-04-10 15:44:59,847 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:51:13,865 | INFO | discord.client | logging in using static token
+2021-04-10 15:51:14,808 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:51:15,052 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-6r63",{"micros":44302,"calls":["discord-sessions-prd-2-138",{"micros":37536,"calls":["start_session",{"micros":27627,"calls":["api-prd-main-slgs",{"micros":25022,"calls":["get_user",{"micros":2667},"add_authorized_ip",{"micros":1509},"get_guilds",{"micros":3579},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3940,"calls":[]}]}]}] (Session ID: edceb527f5c73504f0d3a74193571e81).
+2021-04-10 15:51:17,063 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:51:57,151 | INFO | discord.client | logging in using static token
+2021-04-10 15:51:57,943 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:51:58,284 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-ljsc",{"micros":143677,"calls":["discord-sessions-prd-2-71",{"micros":141032,"calls":["start_session",{"micros":62362,"calls":["api-prd-main-9c7w",{"micros":60151,"calls":["get_user",{"micros":10967},"add_authorized_ip",{"micros":7034},"get_guilds",{"micros":9387},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":57114,"calls":[]}]}]}] (Session ID: 10b1af9c69d0a209167cc1cd76e4d53b).
+2021-04-10 15:52:00,309 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:52:28,966 | INFO | discord.client | logging in using static token
+2021-04-10 15:52:29,746 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:52:30,026 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-ljsc",{"micros":83042,"calls":["discord-sessions-prd-2-140",{"micros":81947,"calls":["start_session",{"micros":36258,"calls":["api-prd-main-clx3",{"micros":32385,"calls":["get_user",{"micros":2776},"add_authorized_ip",{"micros":3733},"get_guilds",{"micros":4723},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36657,"calls":[]}]}]}] (Session ID: 6f9357011fcf0eb7a7e22b62bd93f08b).
+2021-04-10 15:52:32,035 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:52:50,049 | INFO | discord.client | logging in using static token
+2021-04-10 15:52:50,844 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:52:51,085 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-wd0s",{"micros":45112,"calls":["discord-sessions-prd-2-126",{"micros":42930,"calls":["start_session",{"micros":35980,"calls":["api-prd-main-rpls",{"micros":32186,"calls":["get_user",{"micros":3418},"add_authorized_ip",{"micros":1785},"get_guilds",{"micros":7634},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3894,"calls":[]}]}]}] (Session ID: 852622dd6cd1d937ed1d6d8bb316f434).
+2021-04-10 15:52:53,105 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:53:12,834 | INFO | discord.client | logging in using static token
+2021-04-10 15:53:13,631 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:53:13,905 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-vz6c",{"micros":73157,"calls":["discord-sessions-prd-2-140",{"micros":71758,"calls":["start_session",{"micros":26375,"calls":["api-prd-main-jdd8",{"micros":23519,"calls":["get_user",{"micros":2511},"add_authorized_ip",{"micros":1472},"get_guilds",{"micros":3617},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":44877,"calls":[]}]}]}] (Session ID: 37760f70d174e3c860d7e6874716f4fc).
+2021-04-10 15:53:15,916 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:53:34,813 | INFO | discord.client | logging in using static token
+2021-04-10 15:53:35,597 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:53:35,886 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-r84b",{"micros":92962,"calls":["discord-sessions-prd-2-103",{"micros":91607,"calls":["start_session",{"micros":36048,"calls":["api-prd-main-wq8v",{"micros":33580,"calls":["get_user",{"micros":2401},"add_authorized_ip",{"micros":1344},"get_guilds",{"micros":10516},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: cc928e5041979f06ab495b80a56666b9).
+2021-04-10 15:53:37,908 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 15:55:01,135 | INFO | discord.client | logging in using static token
+2021-04-10 15:55:01,948 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 15:55:02,245 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-9z8b",{"micros":95270,"calls":["discord-sessions-prd-2-93",{"micros":94254,"calls":["start_session",{"micros":42064,"calls":["api-prd-main-9c7w",{"micros":38738,"calls":["get_user",{"micros":10716},"add_authorized_ip",{"micros":1075},"get_guilds",{"micros":3402},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":46730,"calls":[]}]}]}] (Session ID: c4a279d636991f99dc495e42a0a13c33).
+2021-04-10 15:55:04,269 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 16:02:19,747 | INFO | discord.client | logging in using static token
+2021-04-10 16:02:20,667 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 16:02:20,946 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-z4sx",{"micros":82951,"calls":["discord-sessions-prd-2-139",{"micros":80403,"calls":["start_session",{"micros":74256,"calls":["api-prd-main-pz65",{"micros":71451,"calls":["get_user",{"micros":9320},"add_authorized_ip",{"micros":5471},"get_guilds",{"micros":16489},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 456b9b5f01ec1be5d60224a56ffb18ac).
+2021-04-10 16:02:22,951 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 16:05:17,831 | INFO | discord.client | logging in using static token
+2021-04-10 16:05:18,688 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 16:05:18,938 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-1l9l",{"micros":48823,"calls":["discord-sessions-prd-2-163",{"micros":46590,"calls":["start_session",{"micros":30243,"calls":["api-prd-main-fjbz",{"micros":24025,"calls":["get_user",{"micros":2042},"add_authorized_ip",{"micros":1698},"get_guilds",{"micros":3734},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":417,"calls":[]}]}]}] (Session ID: 44184f505a38d1c59d1e368efdbbf075).
+2021-04-10 16:05:20,946 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 16:06:17,083 | INFO | discord.client | logging in using static token
+2021-04-10 16:06:17,871 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 16:06:18,159 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-dbh6",{"micros":89247,"calls":["discord-sessions-prd-2-16",{"micros":85369,"calls":["start_session",{"micros":48666,"calls":["api-prd-main-hhvg",{"micros":43507,"calls":["get_user",{"micros":4232},"add_authorized_ip",{"micros":2155},"get_guilds",{"micros":4748},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":35361,"calls":[]}]}]}] (Session ID: cc7918d3f3ed6eeec9b13b14a8bd76d0).
+2021-04-10 16:06:20,156 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 16:06:32,777 | INFO | discord.client | logging in using static token
+2021-04-10 16:06:33,613 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 16:06:33,845 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-hgcj",{"micros":30032,"calls":["discord-sessions-prd-2-9",{"micros":27056,"calls":["start_session",{"micros":20859,"calls":["api-prd-main-47v1",{"micros":18282,"calls":["get_user",{"micros":1532},"add_authorized_ip",{"micros":987},"get_guilds",{"micros":2885},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 853005f751498b33f9343593a081ad0e).
+2021-04-10 16:06:35,853 | INFO | discord | Bot ready to use!
+-----------------------------------New Session-----------------------------------
+2021-04-10 16:08:41,095 | INFO | discord.client | logging in using static token
+2021-04-10 16:08:41,967 | INFO | discord.gateway | Shard ID None has sent the IDENTIFY payload.
+2021-04-10 16:08:42,517 | INFO | discord.gateway | Shard ID None has connected to Gateway: ["gateway-prd-main-mc77",{"micros":334650,"calls":["discord-sessions-prd-2-56",{"micros":328096,"calls":["start_session",{"micros":281975,"calls":["api-prd-main-slgs",{"micros":160218,"calls":["get_user",{"micros":107903},"add_authorized_ip",{"micros":2030},"get_guilds",{"micros":4018},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":45615,"calls":[]}]}]}] (Session ID: 32245eb2cc2f4f8c30687ad2ebbc3307).
+2021-04-10 16:08:44,529 | INFO | discord | Bot ready to use!

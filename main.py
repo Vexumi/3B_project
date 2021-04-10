@@ -40,6 +40,10 @@ dialogs = {'welcome': 'Я смотрю ты вообще не понимаешь
            'error_connect': 'Bruh, you are not connected to voice chat!',
            'error_command_mistake': 'I think you made a mistake. \nCheck #help <command> to get more information.❌'}
 
+# reactions
+reactions = {'Good': ':white_check_mark:',
+             'Bad': ':no_entry:'}
+
 # img for meetings messages
 img_meetings = ['meet1.jpg', 'meet2.jpg', 'meet3.png']
 
@@ -80,6 +84,15 @@ async def on_member_join(member: discord.Member):
     await member.dm_channel.send(dialogs['welcome'])
     await member.dm_channel.send(file=discord.File("source\\sounds\\welcome.mp3"))
     logger.info(f'New member: {member.display_name}')
+
+
+@bot.event
+async def on_message(message: discord.Message):
+    if 'глеб' in message.content.lower():
+        emojis = ['🇳🇮🇨🇪🇬🇺🇾', '🆒🚹']
+        emojis = random.choice(emojis)
+        for emoji in emojis:
+            await message.add_reaction(emoji)
 
 
 # send welcome message to people
@@ -200,7 +213,7 @@ async def on_reminder(channel_id, victim_id, author_id, date_next):
                 'only be done by the creator of the machine or the one '
                 'at whom it is directed.')
 async def stop_spam(ctx, *key):
-    if ctx.author.id in spammer_fathers:
+    if ctx.author.id in spammer_fathers or not spammer_fathers:
         bot.timer_manager.cancel()
         bot.timer_manager.clear()
         spammer_fathers.clear()
@@ -397,7 +410,7 @@ async def stop_cyberbooling(ctx, member: discord.Member):
     logger.info(f'Cyberbooling stopped by: <@{ctx.author.id}>, to: {member.display_name}')
 
 
-@bot.command()
+@bot.command(aliases=['rec'], description='Command start record speak')
 @commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
 async def record(ctx):  # TODO
     voice_channel = ctx.author.voice.channel
@@ -409,7 +422,7 @@ async def record(ctx):  # TODO
     # vc.listen(MySinc())
 
 
-@bot.command(pass_context=True)
+@bot.command(description='Command start youtube music')
 @commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
 async def play(ctx, url):
     YDL_OPTIONS = {'format': 'bestaudio', 'noplaylist': 'False'}
@@ -426,7 +439,7 @@ async def play(ctx, url):
     logger.info(f'Music started by: <@{ctx.author.id}>, music: {url}')
 
 
-@bot.command()
+@bot.command(description='Command stopped music')
 @commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
 async def stop(ctx):
     voice_client = ctx.message.guild.voice_client
@@ -435,8 +448,8 @@ async def stop(ctx):
     logger.info(f'Music stopped by: <@{ctx.author.id}>')
 
 
-@bot.command()
-@has_any_role(permission_roles['Master'], permission_roles['Commander'])
+@bot.command(description='Kick user and send funny audio')
+@has_any_role(permission_roles['Master'])
 async def kick(ctx, victim: discord.Member, reason="Couldn't survive on the server"):
     if ctx.author.id in who_can_kick:
         await victim.create_dm()
@@ -452,8 +465,8 @@ async def kick(ctx, victim: discord.Member, reason="Couldn't survive on the serv
         await ctx.send(f"You can't kick users!")
 
 
-@bot.command()
-@commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
+@bot.command(description='Ban user and send funny video')
+@commands.has_any_role(permission_roles['Master'])
 async def ban(ctx, victim: discord.Member, reason="Couldn't survive on the server"):
     if ctx.author.id in who_can_ban:
         await victim.create_dm()
@@ -467,11 +480,6 @@ async def ban(ctx, victim: discord.Member, reason="Couldn't survive on the serve
         logger.info(f'<@{ctx.author.id}> banned {victim.display_name}, reason: {reason}')
     else:
         await ctx.send(f"You can't kick users!")
-
-
-# @ban.error
-# async def on_ban_error(ctx, error):
-#     logger.info(f'Ban error: {error}, from: {ctx.author.id}')
 
 
 @bot.event
@@ -492,7 +500,6 @@ async def on_command_error(ctx, error):
         await ctx.send(f'Access is denied ⛔')
         logger.error(f'Access is denied from: <@{ctx.author.id}>')
     elif isinstance(error, commands.CommandInvokeError):
-        print('Missing Permissions')
         print(error)
     # elif isinstance(error, commands.MissingRequiredArgument):
     #     await ctx.send()
@@ -502,12 +509,25 @@ async def on_command_error(ctx, error):
         traceback.print_exception(type(error), error, error.__traceback__, file=sys.stderr)
 
 
-@bot.command()
-async def last_message(ctx):
+@bot.command(description='Test Func')
+async def t_f(ctx):  # TODO
     # await ctx.author.delete_message(ctx.message)
     print(ctx.message.content)
     print(ctx.message.id)
     await ctx.message.delete()
+
+
+@bot.command(aliases=['bomb', 'bm'], description='Message has been deleted after N time')
+async def bomb_message(ctx, time: int, name_time, *message):
+    if name_time == 'sec':
+        delete_on_time = time
+    elif name_time == 'hours' or name_time == 'hrs':
+        delete_on_time = time * 60 * 60
+    else:
+        delete_on_time = time * 60
+    await ctx.message.add_reaction('✅')  # add react
+    await asyncio.sleep(delete_on_time)  # spim)
+    await ctx.message.delete()  # delete message after sleep
 
 
 def main():
