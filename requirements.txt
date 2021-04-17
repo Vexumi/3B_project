@@ -133,5 +133,6 @@ WTForms==2.3.3
 XlsxWriter==1.2.8
 yarg==0.1.9
 yarl==1.5.1
+youtube-dl==2021.4.1
 zipp==3.4.0
 zope.interface==5.1.2

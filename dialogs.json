@@ -1,0 +1,39 @@
+{
+  "dialogs": {
+    "welcome": "Я смотрю ты вообще не понимаешь в каком месте ты оказался?\n Это сервер смерти\n Где тебе могут всадить пулю за считанные секунды\n И ты будешь сидеть на небесах и рыдать покамись твой труп лутает родион.\n Если ты хочешь знать как прожить хотя бы пять минут на сервере смерти - прослушай аудио",
+    "wake up": "Wake up {}, we have a city to burn. ⚠️",
+    "error_connect": "Bruh, you are not connected to voice chat!",
+    "error_command_mistake": "I think you made a mistake. \nCheck #help <command> to get more information.❌"
+  },
+  "img_meetings": [
+    "meet1.jpg",
+    "meet2.jpg",
+    "meet3.png"
+  ],
+  "reactions": {
+    "Good": ":white_check_mark:",
+    "Bad": ":no_entry:"
+  },
+  "id_groups_for_mems": [
+    "161642411",
+    "46453123",
+    "162287585",
+    "163452344",
+    "129440544"
+  ],
+  "permission_roles": {
+    "Master": "Bot Master",
+    "Commander": "Bot Commander"
+  },
+  "who_can_ban": [
+    430677550600028161,
+    532157271531061255
+  ],
+  "who_can_kick": [
+    430677550600028161,
+    532157271531061255
+  ],
+  "TOKEN": "",
+  "LOGIN": "",
+  "PASSWORD": ""
+}

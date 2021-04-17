@@ -1,3 +1,4 @@
+import discord
 # async def on_ready(self):
 #     print(f'{self.user} has connected to Discord!')
 #     for guild in self.guilds:
@@ -9,11 +10,11 @@
 #     await member.create_dm()
 #     await member.dm_channel.send(file=discord.File("/source/sounds/welcome.mp3"))
 # ----------------------------------------------------------------------
-    # voice_client = get(ctx.bot.voice_clients, guild=ctx.guild)
-    # channel = discord.utils.get(ctx.bot.get_all_channels(), guild__name='Cool', name='general')
-    # print(voice_client.disconnect())
+# voice_client = get(ctx.bot.voice_clients, guild=ctx.guild)
+# channel = discord.utils.get(ctx.bot.get_all_channels(), guild__name='Cool', name='general')
+# print(voice_client.disconnect())
 
-    # await ctx.guild.ban(user, reason="Testing", delete_message_days=0)
+# await ctx.guild.ban(user, reason="Testing", delete_message_days=0)
 
 # ----------------------------------------------------------------------
 # # disconnect user
@@ -50,18 +51,41 @@
 #
 #     # disconnect bot
 #     await vc.disconnect()
-import logging
+# import logging
+#
+# logging.basicConfig(filename='logs.log', format='%(asctime)s %(levelname)s %(name)s %(message)s')
+#
+#
+#
+# def log_to_file():
+#     i = 0
+#     while i < 10:
+#         logging.warning(i)
+#         i += 1
+#
+#
+# if __name__ == '__main__':
+#     log_to_file()
+#
+# import requests
+#
+# url = "https://webknox-jokes.p.rapidapi.com/jokes/search"
+#
+# querystring = {"numJokes": "5", "keywords": "kick, hard", "category": "Chuck Norris",
+#                "minRating": "5"}
+#
+# headers = {
+#     'x-rapidapi-key': "SIGN-UP-FOR-KEY",
+#     'x-rapidapi-host': "webknox-jokes.p.rapidapi.com"
+# }
+#
+# response = requests.request("GET", url, headers=headers, params=querystring)
+#
+# print(response.text)
 
-logging.basicConfig(filename='logs.log', format='%(asctime)s %(levelname)s %(name)s %(message)s')
-
-
-
-def log_to_file():
-    i = 0
-    while i < 10:
-        logging.warning(i)
-        i += 1
-
-
-if __name__ == '__main__':
-    log_to_file()
+# @bot.command(description='Test Func')
+# async def t_f(ctx):
+#     await ctx.message.delete()
+#     embed = discord.Embed(title="Test", description=f"Big Test!tqwrg",
+#                           colour=discord.Colour.dark_green())
+#     await ctx.send(embed=embed)
