@@ -33,8 +33,10 @@ with open('dialogs.json', encoding='utf-8') as data_file:
     who_can_kick = data['who_can_kick']
     TOKEN = data['TOKEN']
     login, password = data['LOGIN'], data['PASSWORD']
+    bots_game = data['bot_play_game']
+    prefix = data['prefix']
 
-bot = commands.Bot(command_prefix='#', description='Bot Of Our Discord Server')
+bot = commands.Bot(command_prefix=prefix, description='Bot Of Our Discord Server')
 bot.timer_manager = timers.TimerManager(bot)
 spammer_fathers = list()
 
@@ -55,15 +57,10 @@ bin_messages_id = []
 songs = list()
 
 
-# async def access_test(ctx):
-#     if "bot master" not in [role.name.lower() for role in ctx.author.roles]:
-#         await ctx.send(f'Access is denied ⛔')
-#         return False
-#     return True
-
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name='Lets Kill Them All!'))
+    if bots_game:
+        await bot.change_presence(activity=discord.Game(name=bots_game))
     print(f'{bot.user.name} has connected to Discord!')
     logger.info('Bot ready to use!')
     # for guild in bot.guilds:
@@ -77,15 +74,6 @@ async def on_member_join(member: discord.Member):
     await member.dm_channel.send(dialogs['welcome'])
     await member.dm_channel.send(file=discord.File("source\\sounds\\welcome.mp3"))
     logger.info(f'New member: {member.display_name}')
-
-
-# @bot.event
-# async def on_message(message):
-#     if 'глеб' in message.content.lower() or 'tess' in message.content.lower():
-#         emojis = ['🇳🇮🇨🇪🇬🇺🇾', '🆒🚹']
-#         emo = random.choice(emojis)
-#         for emoji in emo:
-#             await message.add_reaction(emoji)
 
 
 # send welcome message to people
@@ -458,17 +446,17 @@ async def stop_cyberbooling(ctx, member: discord.Member):
     logger.info(f'Cyberbooling stopped by: <@{ctx.author.id}>, to: {member.display_name}')
 
 
-@bot.command(aliases=['rec'], description='Command start record speak')
-@commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
-async def record(ctx):  # TODO
-    voice_channel = ctx.author.voice.channel
-    if ctx.voice_client is None:
-        vc = await voice_channel.connect(reconnect=False)
-    else:
-        await ctx.voice_client.move_to(voice_channel)
-        vc = ctx.voice_client
-    audiosource = discord.AudioSource().read()
-    print(audiosource)
+# @bot.command(aliases=['rec'], description='Command start record speak')
+# @commands.has_any_role(permission_roles['Master'], permission_roles['Commander'])
+# async def record(ctx):  # TODO
+#     voice_channel = ctx.author.voice.channel
+#     if ctx.voice_client is None:
+#         vc = await voice_channel.connect(reconnect=False)
+#     else:
+#         await ctx.voice_client.move_to(voice_channel)
+#         vc = ctx.voice_client
+#     audiosource = discord.AudioSource().read()
+#     print(audiosource)
 
 
 @bot.command(description='Command start youtube music')
@@ -579,7 +567,7 @@ async def dog(ctx, n=1):
 
 
 @bot.command(aliases=['memas', 'mems'],
-             description='Returns random Memeeeemmememememkwmfkwemw;aknfffff')
+             description='Returns random Mememememememememmememme')
 async def mem(ctx, n=1):
     vk_session = vk_api.VkApi(
         login, password)

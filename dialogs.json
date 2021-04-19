@@ -25,15 +25,11 @@
     "Master": "Bot Master",
     "Commander": "Bot Commander"
   },
-  "who_can_ban": [
-    430677550600028161,
-    532157271531061255
-  ],
-  "who_can_kick": [
-    430677550600028161,
-    532157271531061255
-  ],
+  "who_can_ban": [],
+  "who_can_kick": [],
   "TOKEN": "",
   "LOGIN": "",
-  "PASSWORD": ""
+  "PASSWORD": "",
+  "bot_play_game": "Lets Kill Them All!",
+  "prefix": "#"
 }
