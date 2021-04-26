@@ -1,24 +1,19 @@
 import asyncio
-import shutil
-import ffmpeg
-from discord.utils import get
-from discord import FFmpegPCMAudio
-from youtube_dl import YoutubeDL
-import os
-from discord.ext import commands, timers
-from discord.ext.commands import has_permissions, has_any_role, has_guild_permissions
-import discord
 import datetime
-import time
-import random
-import traceback
-import sys
-import sqlite3
+import json
 import logging
-import wikipediaapi
+import random
+import sqlite3
+import sys
+import traceback
+
+import discord
 import requests
 import vk_api
-import json
+import wikipediaapi
+from discord.ext import commands, timers
+from discord.ext.commands import has_any_role
+from youtube_dl import YoutubeDL
 
 # dialogs, messages and reactions data
 with open('dialogs.json', encoding='utf-8') as data_file:
@@ -470,9 +465,8 @@ async def play(ctx, url):
     with YoutubeDL(YDL_OPTIONS) as ydl:
         info = ydl.extract_info(url, download=False)
     URL = info['formats'][0]['url']
-    vc.play(
-        FFmpegPCMAudio(executable="source\\ffmpeg\\bin\\ffmpeg.exe", source=URL,
-                       **FFMPEG_OPTIONS))
+    vc.play(discord.FFmpegPCMAudio(executable="source\\ffmpeg\\bin\\ffmpeg.exe", source=URL,
+                                   **FFMPEG_OPTIONS))
     logger.info(f'Music started by: <@{ctx.author.id}>, music: {url}')
 
 
